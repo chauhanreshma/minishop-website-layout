@@ -1,0 +1,81 @@
+
+.head-contain{
+    color: white;
+    font-size: 10px;
+}
+.nav-bg{
+    background: #dbcc8f !important;
+}
+.navbar-brand{
+    font-size: 20px ;
+    color: black;
+}
+.ONE{
+    font-size: 15px;
+    margin-left: 25px;
+}
+@media (max-width: 768px) {
+    .nav-bg{
+        background: black !important;
+    }
+    .ONE{
+        font-size: 15px;
+        margin-left: 25px;
+        color: white;
+    }
+    .menu-icon{
+        color: white !important;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .navbar-brand{
+        color: white !important;
+    }
+
+
+}
+.menu-icon{
+    font-size: 15px;
+    margin-right: 20px;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-list{
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: black;
+}
+.nav-list:hover{
+    color: black;
+}
+.navbar-bg{
+    background: #dbcc8f;
+}
+
+/*<!--text-contain-->*/
+/*.shoes{*/
+/*    padding: 120px 0px;*/
+/*}*/
+.left-tex a{
+    color: white;
+    font-size: 13px;
+    background: black;
+    padding: 3px 12px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.left-space{
+    padding: 100px 0px;
+}
+.left-tex:hover a{
+    text-decoration: none;
+color: white;
+}
+.left-tex h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+.right-img img{
+    width: ;
+}
