@@ -1,55 +1,69 @@
 
-.head-contain{
+.head-contain {
     color: white;
     font-size: 10px;
 }
-.nav-bg{
+
+.nav-bg {
     background: #dbcc8f !important;
 }
-.navbar-brand{
-    font-size: 20px ;
+
+.navbar-brand {
+    font-size: 20px;
     color: black;
 }
-.ONE{
+
+.ONE {
     font-size: 15px;
     margin-left: 25px;
 }
+
+.font-lsize {
+    font-size: 12px;
+}
+
 @media (max-width: 768px) {
-    .nav-bg{
+    .nav-bg {
         background: black !important;
     }
-    .ONE{
+
+    .ONE {
         font-size: 15px;
         margin-left: 25px;
         color: white;
     }
-    .menu-icon{
+
+    .menu-icon {
         color: white !important;
         font-size: 15px;
         margin-right: 20px;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         color: white !important;
     }
-
-
 }
-.menu-icon{
+
+.menu-icon {
     font-size: 15px;
     margin-right: 20px;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     color: black;
 }
-.nav-list{
+
+.nav-list {
     font-size: 10px;
     letter-spacing: 1px;
     color: black;
 }
-.nav-list:hover{
+
+.nav-list:hover {
     color: black;
 }
-.navbar-bg{
+
+.navbar-bg {
     background: #dbcc8f;
 }
 
@@ -57,7 +71,7 @@
 /*.shoes{*/
 /*    padding: 120px 0px;*/
 /*}*/
-.left-tex a{
+.arrival {
     color: white;
     font-size: 13px;
     background: black;
@@ -65,17 +79,134 @@
     letter-spacing: 2px;
     margin-top: 20px;
 }
-.left-space{
+
+.left-space {
     padding: 100px 0px;
 }
-.left-tex:hover a{
-    text-decoration: none;
-color: white;
+
+.left-space p {
+    line-height: 25px;
+    letter-spacing: 1px;
 }
-.left-tex h1{
+
+.left-tex:hover a {
+    text-decoration: none;
+    color: white;
+}
+
+.left-tex h1 {
     font-size: 45px;
     font-weight: 300;
 }
-.right-img img{
-    width: ;
+
+.right-img img {
+    width: 660px;
+    height: 535px;
 }
+
+.right-img {
+    position: relative;
+    right: 160px;
+    bottom: 20px;
+}
+
+.mini-shop-btn {
+    padding: 9px 18px;
+    background-color: #c2a942;
+    color: white;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .right-space {
+        position: static !important;
+    }
+
+    /*.right-space {*/
+    /*    position: relative !important;*/
+    /*    right: 200px;*/
+    /*}*/
+    /*.right-img img {*/
+    /*    width: 725px;*/
+    /*    height: 550px;*/
+    /*    padding-top: 50px;*/
+    /*}*/
+    /*.left-tex {*/
+    /*    position: relative !important;*/
+    /*    !*left: 280px;*!*/
+    /*    z-index: 1;*/
+    /*}*/
+}
+
+@media screen and (max-width: 768px) {
+    /*.left-tex {*/
+    /*    position: relative !important;*/
+    /*    left: 120px;*/
+    /*}*/
+    /*.arrival {*/
+    /*    margin-left: 175px;*/
+    /*}*/
+    /*.left-space h1 {*/
+    /*    width: 580px;*/
+    /*    font-size: 39px;*/
+    /*    position: relative;*/
+    /*    right: 50px;*/
+    /*    padding-top: 50px;*/
+    /*}*/
+    /*.mini-shop-btn {*/
+    /*    margin-left: 170px;*/
+    /*}*/
+    .left-space{
+        z-index: 999;
+    }
+    .right-space {
+        position: absolute !important;
+        text-align: center;
+    }
+
+    .right-space img {
+        width: 70% !important;
+        z-index: 0;
+    }
+}
+
+@media screen and  (max-width: 425px) {
+    /*.arrival {*/
+    /*    margin-left: 0px;*/
+    /*}*/
+    /*.left-space p {*/
+    /*    line-height: 40px;*/
+    /*    letter-spacing: 0px;*/
+    /*    width: 436px;*/
+    /*    color: white;*/
+    /*    position: relative;*/
+    /*    right: 156px;*/
+    /*    font-size: 25px;*/
+    /*    text-align: center;*/
+    /*}*/
+    /*.left-space h1 {*/
+    /*    width: 351px;*/
+    /*    font-size: 39px;*/
+    /*    position: relative;*/
+    /*    right: 105px;*/
+    /*    text-align: center;*/
+    /*}*/
+    /*.right-img img {*/
+    /*    width: 100%;*/
+    /*    height: 445px;*/
+    /*    margin-left: 15px;*/
+    /*}*/
+    .right-space {
+        position: absolute !important;
+    }
+    .left-space{
+        text-align: center;
+    }
+
+    .right-space img {
+        width: 100% !important;
+        z-index: 0;
+    }
+}
+
